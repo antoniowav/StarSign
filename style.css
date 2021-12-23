@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;800&display=swap");
+
+body {
+  background-image: url(./ASSETS/background.jpg);
+  background-size: 130em 100em;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1,
+h4 {
+  color: honeydew;
+  text-shadow: 2px 2px black;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 10px 10px;
+  padding: 20px 20px;
+  background-color: rgba(99, 96, 96, 0.379);
+
+  border-radius: 10px;
+}
+
+#input {
+  margin: 10px 10px;
+}
+
+#findBtn {
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 150px;
+  height: 50px;
+  background: #f1f2f3;
+  box-shadow: 0px 6px 34px rgba(26, 19, 70, 0.12);
+  border-radius: 24px;
+}
+
+#deleteBtn {
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 150px;
+  height: 50px;
+  background: #f1f2f3;
+  box-shadow: 0px 6px 34px rgba(26, 19, 70, 0.12);
+  border-radius: 24px;
+}
+
+#updateBtn {
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 150px;
+  height: 50px;
+  background: #f1f2f3;
+  box-shadow: 0px 6px 34px rgba(26, 19, 70, 0.12);
+  border-radius: 24px;
+}
+
+#btnContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#textContainer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  width: 70%;
+}
+
+#input {
+  border-radius: 10px;
+}
